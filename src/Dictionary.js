@@ -44,10 +44,10 @@ export default function Dictionary(props) {
               defaultValue={props.defaultKeyword}
             />
           </form>
-          <div className="hint">
-            suggested words: sunset, wine, yoga, forest, plants...
-          </div>
         </section>
+        <div className="hint">
+          suggested words: sunset, wine, yoga, forest, plants...
+        </div>
         <Results results={results} />
       </div>
     );
