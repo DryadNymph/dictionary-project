@@ -15,7 +15,11 @@ export default function Photos(props) {
                   rel="noreferrer"
                   alt=""
                 >
-                  <img src={photo.src.landscape} className="img-fluid" />
+                  <img
+                    src={photo.src.landscape}
+                    className="img-fluid"
+                    alt={image.description}
+                  />
                 </a>
               </div>
             );
